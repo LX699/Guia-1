@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="nav">
+        <a href="">Formulario</a>&nbsp;
+        <a href="">Tabla</a>
+    </div>
+
+    <section class="container">
+        <h1>Formulario</h1>
+
+        <form>
+            <div class="form_norm">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="mail">Email:</label><br>
+                <input type="email" id="mail" name="mail"><br>
+                <label for="numero">Numero:</label><br>
+                <input type="number" id="numero" name="numero"><br>
+                <label for="fecha_nacimiento">Fecha nacimiento:</label><br>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
+            </div>
+            <p>Carrera:</p>
+            <input type="radio" id="Ing_Inf" name="carrera" value="Ing_Inf">
+            <label for="Ing_Inf">Ingenieria Informatica</label><br>
+            <input type="radio" id="Ing_Civ_Inf" name="carrera" value="Ing_Civ_Inf">
+            <label for="Ing_Civ_Inf">Ingenieria Civil Informatica</label><br>
+            <input type="radio" id="Ing_Civ_Ind_Men_Inf" name="carrera" value="Ing_Civ_Ind_Men_Inf">
+            <label for="Ing_Civ_Ind_Men_Inf">Ingenieria Civil Industial Mencion Informatica</label><br> <br>
+            
+            <div class="form_norm">
+                <label for="Año_ingreso">Año ingreso:</label><br>
+                <input type="number" id="Año_ingreso" name="Año_ingreso"><br><br>
+            </div>
+            
+            <div class="form_sub">
+                <input type="submit" value="Enviar">
+            </div>
+            
+
+        </form>
+    </section>
+
+</body>
+
+</html>

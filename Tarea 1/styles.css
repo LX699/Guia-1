@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#nav {
+    line-height: 30px;
+    background-color: #000000;
+    float:none;
+    padding: 10px;
+    text-align: right;
+}
+
+
+table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+  
+  th {
+      padding: 15px;
+      background-color: rgb(39, 39, 39);
+      color: aliceblue;
+  }
+
+  td {
+      padding: 5px;
+      color: #851c1c;
+      font-style: oblique;
+      background-color: rgb(185, 185, 185);
+
+  }
+
+  .container {
+      margin: 0 auto;
+      width: 70%;
+  }
+  
+  form {
+      margin: auto 10%;
+  }
+
+  .form_norm input{
+      width: 100%;
+  }
+
+  .form_sub input {
+      width: 100%;
+      padding: 10px;
+      background-color: #313131;
+      color: aliceblue;
+  }
